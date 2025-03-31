@@ -28,6 +28,7 @@ namespace IFoxDYPD
         private void AssemblyDLL()
         {
             // 加载 HandyControl.dll
+            //
             var assembly2 = Assembly.Load("MaterialDesignColors");
             var assembly3 = Assembly.Load("MaterialDesignThemes.Wpf");
             var assembly5 = Assembly.Load("Microsoft.Xaml.Behaviors");
